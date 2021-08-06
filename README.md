@@ -16,5 +16,6 @@ and provide them with additional information about Studio.
 ## Task List
 - [x] Basic structure
 - [x] Animated navbar
+- [ ] "Zapisz się" page
 - [ ] Contents
 - [ ] Responsivness
