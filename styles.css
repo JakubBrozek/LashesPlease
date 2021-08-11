@@ -8,6 +8,7 @@
     font-family: 'Lato', sans-serif;
     --primary-color: #FCEFFE;
     --text-color: #404040;
+    --accent-color: #E75CB9;
 }
 
 .navbar {
@@ -34,8 +35,8 @@
 }
 
 #navbar__logo {
-    background-color: #E75CB9;
-    background-image: linear-gradient(to top, #2295DD 0%, #E75CB9 70%);
+    background-color: var(--accent-color);
+    background-image: linear-gradient(to top, #2295DD 0%, var(--accent-color) 70%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -96,11 +97,11 @@
 }
 
 .button:hover {
-    background: #E75CB9;
+    background: var(--accent-color);
 }
 
 .navbar__links:hover {
-    color: #E75CB9;
+    color: var(--accent-color);
 }
 
 .footer {
